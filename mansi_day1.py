@@ -25,13 +25,14 @@ print(type(height))
 a=10
 b=3
 
-print("Addition", a+b)
-print("Subtract", a-b)
-print("Multiplication", a*b)
-print("Divide", a/b)
-print("Modulus", a%b)
+print("Addition", a + b)
+print("Subtract", a - b)
+print("Multiplication", a * b)
+print("Divide", a / b)
+print("Modulus", a % b)
 
 #------------------------
 #User Input (basic)
 user_name=input("Enter your name:")
-print(Welcome", user_name)
+print("Welcome", user_name)
+
