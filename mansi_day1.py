@@ -174,6 +174,245 @@ else:
   print("experience not sufficient")
 else:
  print("salary criteria not met")
+
+#---------------------------------------
+#checking number is even or odd
+num=54
+if num%2==0:
+  print("number is even")
+else:
+  print("number is odd")
+
+#greater number
+a=49
+b=35
+if a>b:
+  print("number is greater")
+else:
+print("number is smaller")
+
+#check number is negative, positive or zero
+num=79
+if num>0:
+  print ("positive number")
+elif num<0:
+   print("negative number")
+else:
+  print("zero")
+
+#grade system(nested if-else)
+marks=86
+if marks>=90:
+        print("Grade A")
+  elif marks>=75:
+    if marks>=85:
+      print("Grade A")
+    else:
+      print("Grade B")
+elif marks>=50:
+   print("Grade C")
+else:
+print("Fail")
+
+#login system
+username=input("Enter username:")
+password=input("Enter password:")
+if username=="admin":
+  if password=="1234":
+    print("login successful")
+ else:
+  print("wrong password")
+else:
+  print("invalid username")
+
+#----------------------------
+#loops
+#while loop (till the condition will True the code will repeat)
+#syntax
+while condition:
+  statement
+
+#Print 1 to 5
+i=1
+while i<=5:
+  print(i)
+  i=i+1
+
+#print 1 to 10
+i=1
+while i<=10:
+  print(i)
+  i=i+1
+
+#reverse counting 1 to 10
+i=10
+while i>=1:
+  print(i)
+  i=i-1
+
+#print even and odd numbers 1 to 20
+i=1
+while i<=20:
+  if i%2==0:
+    print(i, "number is even")
+else:
+ print(i, "number is odd")
+i=i+1
+#Print only odd numbers 21 to 50
+i=21
+while i<=50:
+  if i%2==1:
+    print(i, "number is odd")
+    i=i+1
+
+#table of 5
+i=1
+while i<=10:
+  print(5*i)
+i=i+1
+# in format
+i=1
+while i<=10:
+  print(5x","=", 5*i)
+i=i+1
+
+#table of 7
+i=1
+while i<=10:
+  print("7x",i,"=", 7*i)
+i=i+1
+
+#table of 9 in reverse order
+i=10
+while i>=1:
+  print("9x",i,"=", 9*i)
+i=i-1
+
+#print table 1 to 5
+i=1
+while i<=10:
+  print("1x",i,"=", 1*i)
+  print("2x",i,"=", 2*i)
+  print("3x",i,"=", 3*i)
+  print("4x",i,"=", 4*i)
+  print("5x",i,"=", 5*i)
+i=i+1
+
+#take input from user and print table 2 to 10
+n=int(input("enter table:"))
+i=1
+while i<=10:
+  print(n,"x",i,"=", n*i)
+i=i+1  
+
+
+
+#----------------------------------
+#for loop("when we know the how many times the loop will run")
+#syntax
+for i in range(start, end):
+  statement
+
+#print 1 to 5
+for i in range(1, 6):
+  print(i)
+
+#print reverse (5 to 1)
+for i in range(5, 0, -1):
+  print(i)
+
+#print table of 6
+for i in range (1, 11):
+  print("6x",i,"=", 6*i)
+
+#print 1 to 10
+for i in range(1, 10)
+     print(i)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    
 
 
@@ -247,6 +486,7 @@ else:
 
 
   
+
 
 
 
