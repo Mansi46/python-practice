@@ -326,9 +326,13 @@ for i in range (1, 11):
   print("6x",i,"=", 6*i)
 
 #print 1 to 10
-for i in range(1, 10)
+for i in range(1, 11):
      print(i)
 
+#print even number 1 to 10 from for loop
+for i in range(1, 11):
+  if i%2==0:
+   print (i)
 
 
 
@@ -486,6 +490,7 @@ for i in range(1, 10)
 
 
   
+
 
 
 
